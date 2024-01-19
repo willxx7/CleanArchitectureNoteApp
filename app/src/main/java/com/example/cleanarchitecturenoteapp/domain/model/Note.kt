@@ -13,6 +13,7 @@ import com.example.cleanarchitecturenoteapp.ui.theme.Violet
 data class Note(
     @PrimaryKey
     val id: Int?,
+
     val title: String,
     val content: String,
     val timestamp: Long,
